@@ -1,6 +1,5 @@
 // Este componente utiliza el hook `useFetch` para mostrar datos de usuarios.
 
-import React from "react";
 import { useFetch } from "../Hooks";
 
 // Definimos el tipo de datos esperados en el fetch.

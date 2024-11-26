@@ -1,8 +1,8 @@
-import React from "react";
 import UseCounter from "./Components/UseCounter";
 import UserList from "./Components/UserList";
 import WindowSizeApp from "./Components/WindowSizeApp";
 import "./App.css";
+import  TimeCounter from "./Components/TimeCounter";
 
 export default function App() {
   return (
@@ -10,6 +10,7 @@ export default function App() {
       <UseCounter />
       <UserList />
       <WindowSizeApp />
+      <TimeCounter />
     </div>
   );
 }

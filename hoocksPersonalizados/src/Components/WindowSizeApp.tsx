@@ -1,6 +1,4 @@
 // Este componente muestra las dimensiones actuales de la ventana.
-
-import React from "react";
 import { useWindowSize } from "../Hooks";
 
 export default function WindowSizeApp() {
