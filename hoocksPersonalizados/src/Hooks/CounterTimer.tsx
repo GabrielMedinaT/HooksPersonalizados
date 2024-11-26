@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function useCounter(initialValue = 0, interval = 1000) {
+export function Countertimer(initialValue = 0, interval = 1000) {
   const [countTimer, setCountTimer] = useState(initialValue);
 
   useEffect(() => {
@@ -12,5 +12,3 @@ export function useCounter(initialValue = 0, interval = 1000) {
 
   return countTimer;
 }
-
-
