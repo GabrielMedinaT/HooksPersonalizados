@@ -15,7 +15,7 @@ export default function CounterApp() {
       {/* Counter A */}
       <div>
         <h2>Counter A: {counterA.count}</h2>
-        <button onClick={counterA.increment}>Increment A</button>
+        <button onClick={counterA.increment}>Increment Aa</button>
         <button onClick={counterA.decrement}>Decrement A</button>
       </div>
 
