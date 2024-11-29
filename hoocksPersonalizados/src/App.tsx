@@ -6,7 +6,7 @@ import TimeCounter from "./Components/TimeCounter";
 
 export default function App() {
 
-  const [state , set]
+  
 
   return (
     <div>
