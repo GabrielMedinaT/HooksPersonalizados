@@ -68,4 +68,6 @@ button {
   margin: 2vh;
 
 }
-bu
+button:hover {
+  background-color: #61dafb;
+}
