@@ -7,7 +7,9 @@ import TimeCounter from "./Components/TimeCounter";
 export default function App() {
 
   //boolean que indica si se muestra o no el componente 
-  const showCounter = false;
+  const [show, setShow] = useState(true);
+
+  
 
   //funcion que se ejecuta al hacer click en el boton
 
