@@ -66,8 +66,10 @@ button {
   cursor: pointer;
   transition: background-color 300ms;
   margin: 2vh;
+  
 
 }
 button:hover {
   background-color: #61dafb;
+  transform: scale(1.1);
 }
