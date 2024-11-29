@@ -9,7 +9,7 @@ export default function App() {
   //boolean que indica si se muestra o no el componente 
   const showCounter = false;
 
-  //funcion que
+  //funcion que se ejecuta al hacer click en el boton
 
   return (
     <div>
