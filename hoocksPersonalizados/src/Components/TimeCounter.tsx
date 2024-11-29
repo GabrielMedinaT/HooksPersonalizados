@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Countertimer } from "../Hooks";
 
 export default function TimeCounter() {
