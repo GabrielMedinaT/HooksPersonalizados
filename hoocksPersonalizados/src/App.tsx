@@ -5,6 +5,9 @@ import "./App.css";
 import TimeCounter from "./Components/TimeCounter";
 
 export default function App() {
+
+  const []
+
   return (
     <div>
       <h1>Hoocks personalizados</h1>
