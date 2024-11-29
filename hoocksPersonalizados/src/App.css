@@ -30,8 +30,8 @@
 .landing {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  justify-content: ;
+  align-items: center;
   height: 100%;
 }
 @keyframes logo-spin {
