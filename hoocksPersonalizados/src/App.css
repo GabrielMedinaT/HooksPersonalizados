@@ -66,7 +66,7 @@ button {
   cursor: pointer;
   transition: background-color 300ms;
   margin: 2vh;
-  transition: .
+  transition: 0.3s all;
 
 }
 button:hover {
