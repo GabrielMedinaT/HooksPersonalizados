@@ -13,7 +13,7 @@ export default function App() {
   const [showTimeCounter, setShowTimeCounter] = useState(true);
 
   return (
-    <div className="main">
+    <div className="landingPages">
       <h1>Hooks personalizados</h1>
 
       {/* Botón y estado para UseCounter */}
