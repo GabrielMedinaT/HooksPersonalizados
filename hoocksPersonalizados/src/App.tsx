@@ -9,7 +9,8 @@ export default function App() {
   //boolean que indica si se muestra o no el componente 
   const [show, setShow] = useState(true);
 
-  
+  function handleClick() {
+    setShow(!show);
 
   //funcion que se ejecuta al hacer click en el boton
 
