@@ -1,34 +1,33 @@
-import React from "react";
+// Este componente utiliza el hook `useFetch` para mostrar datos de usuarios.
+
 import { useFetch } from "../Hooks";
 
-type Character = {
+// Definimos el tipo de datos esperados en el fetch.
+type User = {
   id: number;
   name: string;
-  status: string;
-  species: string;
-  gender: string;
-  image: string;
+  email: string;
 };
 
-export default function CharacterList() {
-  const { data, loading, error } = useFetch<Character[]>(
-    "https://rickandmortyapi.com/api/character"
+export default function UserList() {
+  // Llamada al hook con la URL del API.
+  const { data, loading, error } = useFetch<User[]>(
+    "https://jsonplaceholder.typicode.com/users"
   );
 
+  // Mientras carga...
   if (loading) return <p>Loading...</p>;
+  // Si hay error...
   if (error) return <p>Error: {error}</p>;
 
   return (
     <div>
-      <h1>Lista de Personajes</h1>
+      <h1>User List</h1>
       <ul>
-        {data?.map((character) => (
-          <li key={character.id}>
-            <img src={character.image} alt={character.name} />
-            <p>{character.name}</p>
-            <p>
-              {character.species} - {character.status}
-            </p>
+        {/* Mapear los datos obtenidos */}
+        {data?.map((user) => (
+          <li key={user.id}>
+            {user.name} - {user.email}
           </li>
         ))}
       </ul>
