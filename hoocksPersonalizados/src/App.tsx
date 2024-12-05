@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div className="landing">
-      <h1>Hooks personalizados</h1>
+      <h1>Hooks personalizado</h1>
 
       {/* Botón y estado para UseCounter */}
       <button onClick={() => setShowUseCounter(!showUseCounter)}>
